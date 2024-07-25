@@ -62,7 +62,6 @@ function FirstForm() {
   const handleSubmit = (event) => {
     event.preventDefault();
 
-    // Check if there are any validation errors
     const hasErrors = Object.values(errors).some(error => error !== '');
     if (hasErrors) {
       return;
