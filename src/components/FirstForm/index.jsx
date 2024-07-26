@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import styles from './index.module.css'
 function FirstForm() {
   const [formData, setFormData] = useState({
     name: '',
@@ -79,8 +79,10 @@ function FirstForm() {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form className={styles.form} onSubmit={handleSubmit}>
       <div>
+        <h1>Create An Account</h1>
+        <p>Kindly fill the following details to create your account</p>
         <input
           type="text"
           id="name"
@@ -133,7 +135,7 @@ function FirstForm() {
           placeholder='Your biography'
         />
       </div>
-      <button type="submit">CREATE ACCOUNT</button>
+      <button className={styles.submit} type="submit">CREATE ACCOUNT</button>
     </form>
   );
 }

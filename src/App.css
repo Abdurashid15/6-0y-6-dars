@@ -4,3 +4,16 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+header{
+    display: flex ;
+    gap: 30px;
+}
+a{
+    border-radius: 10px;
+    margin-bottom: 50px;
+    background-color: rgb(216, 148, 148);
+    text-decoration: none;
+    color: blue;
+    padding: 10px;
+    border: 1px solid rgb(216, 148, 148);
+}

@@ -1,0 +1,38 @@
+.input{
+    padding: 10px 20px;
+    outline: none;
+    border-radius: 8px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.filter{
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.filter:active{
+    transform: scale(.9);
+    margin-bottom: 20px;
+}
+
+.photo {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 16px;
+    padding: 16px;
+  }
+  
+  .photocard {
+    background: #fff; 
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    overflow: hidden; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    text-align: center; 
+  }
+  
+  
+  .photocard h3 {
+    margin: 8px 0; /* Sarlavha uchun yuqori va pastki bo'shliqlar */
+  }
